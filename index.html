@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo">Logo</h2>
+        <nav class="navigation">
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+            <button class="btnLogin">Login</button>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close">
+            <i class="fa-regular fa-circle-xmark"></i>
+        </span>
+        <div class="form-box login"> 
+            <h2>Iniciar Sesión</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-regular fa-envelope"></i>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-lock"></i>
+                    </span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">
+                    Recorda me</label>
+                    <a href="#">Olvide la contraseña?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>No tienes una cuenta? <a href="#" class="register-link">Registrate</a></p>
+                </div>
+                
+            </form>
+        </div>
+
+        <div class="form-box register"> 
+            <h2>Registrar</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-regular fa-user"></i>
+                    </span>
+                    <input type="text" required>
+                    <label for="">Usuario</label>
+                </div><div class="input-box">
+                    <span class="icon">
+                        <i class="fa-regular fa-envelope"></i>
+                    </span>
+                    <input type="email" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-lock"></i>
+                    </span>
+                    <input type="password" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">
+                    Acepto los terminos y condiciones</label>
+                    
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Ya tienes una cuenta? <a href="#" class="login-link">Iniciar Session</a></p>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+</body> 
+</html>
